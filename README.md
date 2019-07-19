@@ -4,8 +4,9 @@ The travelling salesman problem (TSP) asks the following question: "Given a list
 
 The repository is a java library designed to solve the tsp problem using various evolutionary algorithm configurations. This evolutionary algorithm (EA) solves the problem by employing an evolutionary strategy to an initial population of candidate solutions. Over many iterations, the population quality improves. This process involes performing mutations, crossover and selection operations on the population each iteration, as can be observed in biological evolution.   
 
-<img src="/images/tsp.png?raw=true" width="400">
-## Evolutionary Algorithm Instructions.   
+<img src="/images/tsp.png?raw=true" width="400">  
+
+## Evolutionary Algorithm Instructions.  
 The evolutionary algorithm implemented by this library is handled by the EvolutionaryAlgorithm object. This object holds a configuration for the algorithm and is used to perform the algorithm. It can be initiated using the following constructor:  
 
 ```EvolutionaryAlgorithm();```
